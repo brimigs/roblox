@@ -1,0 +1,96 @@
+{
+  "name": "AI Pet Paradise",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "PetRemotes": {
+          "$className": "Folder"
+        },
+        "ShopRemotes": {
+          "$className": "Folder"
+        },
+        "PlayerRemotes": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Assets": {
+        "$className": "Folder",
+        "Pets": {
+          "$className": "Folder"
+        },
+        "Maps": {
+          "$className": "Folder"
+        },
+        "Effects": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Map": {
+        "$className": "Folder",
+        "SpawnArea": {
+          "$className": "Folder"
+        },
+        "PetPark": {
+          "$className": "Folder"
+        },
+        "ShopArea": {
+          "$className": "Folder"
+        },
+        "VIPZone": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Future",
+        "GlobalShadows": true,
+        "Brightness": 1.5,
+        "ClockTime": 14
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
